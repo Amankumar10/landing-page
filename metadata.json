@@ -1,0 +1,6 @@
+{
+  "name": "AllyNest - Emotion AI",
+  "description": "Building the Emotional Layer for AI with Compatifi, helping people improve communication and relationships using real-time AI insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
