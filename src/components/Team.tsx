@@ -4,11 +4,10 @@ import { Linkedin, Globe, MessageCircle } from "lucide-react";
 export default function Team() {
   const founders = [
     {
-      name: "TBD",
-      role: "Founder & Mission Architect",
-      bio: "Mission-driven builder focused on creating human-centered AI systems. Leading the vision at AllyNest to bridge the emotional gap between humans and machines.",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=256&h=256&auto=format&fit=crop",
-      links: { linkedin: "#", twitter: "#" }
+      name: "AMAN KUMAR",
+      role: "Founder",
+      bio: "Mission-driven builder focused on creating human-centered AI systems. Leading the vision at AllyNest to bridge the emotional gap between humans and machines."
+      
     }
   ];
 
@@ -33,9 +32,7 @@ export default function Team() {
               className="max-w-2xl w-full bg-slate-50 rounded-[40px] p-8 md:p-12 border border-slate-100 flex flex-col md:flex-row gap-10 items-center md:items-start"
             >
               <div className="relative">
-                <div className="w-32 h-32 md:w-48 md:h-48 rounded-[32px] overflow-hidden shadow-2xl border-4 border-white rotate-3">
-                  <img src={founder.image} alt={founder.name} className="w-full h-full object-cover" />
-                </div>
+            
                 <div className="absolute -bottom-4 -right-4 bg-primary text-white p-3 rounded-2xl shadow-lg ring-4 ring-white">
                   <Globe className="w-5 h-5" />
                 </div>
@@ -47,16 +44,7 @@ export default function Team() {
                 <p className="text-slate-600 mb-8 leading-relaxed italic text-sm md:text-base">
                   "{founder.bio}"
                 </p>
-                <div className="flex justify-center md:justify-start gap-4">
-                  <a href={founder.links.linkedin} className="inline-flex items-center gap-2 px-4 py-2 bg-white rounded-full border border-slate-200 text-slate-600 hover:text-primary transition-all text-xs font-bold uppercase tracking-wider">
-                    <Linkedin className="w-4 h-4" />
-                    LinkedIn
-                  </a>
-                  <a href={founder.links.twitter} className="inline-flex items-center gap-2 px-4 py-2 bg-white rounded-full border border-slate-200 text-slate-600 hover:text-primary transition-all text-xs font-bold uppercase tracking-wider">
-                    <MessageCircle className="w-4 h-4" />
-                    Story
-                  </a>
-                </div>
+                
               </div>
             </motion.div>
           ))}

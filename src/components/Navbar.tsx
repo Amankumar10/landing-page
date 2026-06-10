@@ -2,9 +2,7 @@ import { motion } from "motion/react";
 import { Link } from "react-router-dom";
 import { Brain, Menu, X } from "lucide-react";
 import { useState } from "react";
-
-// import logo from "../assets/image.png";
-
+import logo from "../assests/image.png";
 import { cn } from "@/src/lib/utils";
 
 export default function Navbar() {
@@ -27,6 +25,7 @@ export default function Navbar() {
       >
         <Link to="/" className="flex items-center gap-2 group">
 <<<<<<< HEAD
+<<<<<<< HEAD
          <img
   src="/image.png"
   alt="AllyNest Logo"
@@ -38,6 +37,10 @@ export default function Navbar() {
           </div>
           <span className="font-bold text-xl tracking-tight">AllyNest</span>
 >>>>>>> ffd1be6 (Initial commit)
+=======
+          <img src={logo} alt="AllyNest Logo" className="h-14 w-auto object-contain" />
+          {/* <span className="font-bold text-xl tracking-tight">AllyNest</span> */}
+>>>>>>> e0282d7 (Fix logo path)
         </Link>
 
         {/* Desktop Nav */}
@@ -58,7 +61,7 @@ export default function Navbar() {
             to="/#waitlist"
             className="px-5 py-2 text-sm font-medium text-white bg-primary rounded-full hover:bg-blue-600 transition-all hover:scale-105 active:scale-95 shadow-sm"
           >
-            Join Waitlist
+            Join Waitlists
           </Link>
         </div>
 
