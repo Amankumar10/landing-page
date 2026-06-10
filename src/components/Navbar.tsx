@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import { Link } from "react-router-dom";
 import { Brain, Menu, X } from "lucide-react";
 import { useState } from "react";
-import logo from "../assests/image.png";
+import logo from "../assets/image.png";
 import { cn } from "@/src/lib/utils";
 
 export default function Navbar() {
