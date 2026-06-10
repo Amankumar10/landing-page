@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import { Link } from "react-router-dom";
 import { Brain, Menu, X } from "lucide-react";
 import { useState } from "react";
-import logo from "../assets/image.png";
+// import logo from "../assets/image.png";
 import { cn } from "@/src/lib/utils";
 
 export default function Navbar() {
@@ -25,7 +25,7 @@ export default function Navbar() {
       >
         <Link to="/" className="flex items-center gap-2 group">
          <img
-  src={logo}
+  src="/image.png"
   alt="AllyNest Logo"
   className="h-24 w-auto object-contain"
 />
