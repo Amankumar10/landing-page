@@ -84,7 +84,7 @@ export default function Navbar() {
             onClick={() => setIsOpen(false)}
             className="mt-2 w-full py-3 text-center text-white bg-primary rounded-xl font-semibold"
           >
-            Join Waitlist
+            Join Waitlist 1
           </Link>
         </motion.div>
       )}
