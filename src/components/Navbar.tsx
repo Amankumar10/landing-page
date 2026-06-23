@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import { Link } from "react-router-dom";
 import { Brain, Menu, X } from "lucide-react";
 import { useState } from "react";
-import logo from "../assets/image.png";
+// import logo from "../assets/image.png";
 import { cn } from "@/src/lib/utils";
 
 export default function Navbar() {
@@ -24,24 +24,12 @@ export default function Navbar() {
         className="glass flex items-center justify-between w-full max-w-5xl px-6 py-3 rounded-full shadow-lg"
       >
         <Link to="/" className="flex items-center gap-2 group">
-<<<<<<< HEAD
-<<<<<<< HEAD
-         <img
-  src="/image.png"
-  alt="AllyNest Logo"
-  className="h-24 w-auto object-contain"
-/>
-=======
-          <div className="bg-primary p-1.5 rounded-lg group-hover:rotate-12 transition-transform">
-            <Brain className="w-5 h-5 text-white" />
-          </div>
-          <span className="font-bold text-xl tracking-tight">AllyNest</span>
->>>>>>> ffd1be6 (Initial commit)
-=======
-          <img src={logo} alt="AllyNest Logo" className="h-14 w-auto object-contain" />
-          {/* <span className="font-bold text-xl tracking-tight">AllyNest</span> */}
->>>>>>> e0282d7 (Fix logo path)
-        </Link>
+  <img
+    src="/image.png"
+    alt="AllyNest Logo"
+    className="h-14 w-auto object-contain"
+  />
+</Link>
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8">
