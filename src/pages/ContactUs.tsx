@@ -23,8 +23,8 @@ export default function ContactUs() {
                 </div>
                 <div>
                   <h4 className="font-bold text-slate-900 mb-1">Email Us</h4>
-                  <p className="text-sm text-slate-500">founders@allynest.com</p>
-                  <p className="text-sm text-slate-500">support@allynest.com</p>
+           
+                  <p className="text-sm text-slate-500">support@allynesttechnologies.com</p>
                 </div>
               </div>
               <div className="flex gap-6">
