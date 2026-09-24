@@ -66,7 +66,7 @@ export default function Footer() {
         </p>
         <div className="flex items-center gap-2 text-xs text-slate-400">
           <Mail className="w-3 h-3" />
-          <span>founders@allynest.com</span>
+          <span>support@allynesttechnologies.com</span>
         </div>
       </div>
     </footer>
